@@ -76,7 +76,7 @@ def main():
                            start_date=start,
                            end_date=end)
 
-      print(results)
+      print(json.dumps(results))
     
 
     elif args.action == "store":

@@ -8,7 +8,8 @@ python3 $HOME/os-metrics/metrics/os-collector.py \
   -p $2\
   -nv $3\
   -pn $4\
-  -au $5 > os_metrics_$TODAY.json;
+  -au $5 > $HOME/os-metrics/os_metrics_$TODAY.json;
+
 
 
 
